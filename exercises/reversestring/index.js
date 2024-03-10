@@ -8,6 +8,7 @@
 
 function reverse(str) {
     // Solution 1
+    // Instead of split we can use Array.from which also creates array of chars from a string
     // const result = str.split("").reverse().join("");
 
 

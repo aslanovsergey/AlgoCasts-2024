@@ -8,22 +8,22 @@
 //   palindrome("abcdefg") === false
 
 function palindrome(str) {
-    return str.split("").every((char, i) => {
-        return char === str[str.length - i - 1] 
-    })
+  return str.split("").every((char, i) => {
+    return char === str[str.length - i - 1];
+  });
 }
 
 module.exports = palindrome;
 
-
+// O(n)
 // function palindrome(str) {
 //     const reversedStr = str.split("").reverse().join("");
 
 //     return str === reversedStr;
 // }
 
-
-
+// Worst O(n/2)
+// Best O(1)
 // function palindrome(str) {
 //     let a = 0;
 

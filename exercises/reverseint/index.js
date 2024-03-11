@@ -9,14 +9,15 @@
 //   reverseInt(-90) === -9
 
 function reverseInt(n) {
-    const revStr = n.toString().split("").reverse().join("");
+  const revStr = n.toString().split("").reverse().join("");
 
-    return parseInt(revStr) * Math.sign(n);
+  return parseInt(revStr) * Math.sign(n);
 }
 
 module.exports = reverseInt;
 
-
+// Best O(1)
+// Worst O(n)
 // function reverseInt(n) {
 //     if(n === 0) {
 //         return n;

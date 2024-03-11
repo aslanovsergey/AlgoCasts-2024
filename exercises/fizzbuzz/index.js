@@ -14,6 +14,7 @@
 
 // Modulo operator %
 
+// O(n)
 function fizzBuzz(n) {
   for (let i = 1; i <= n; i++) {
     let output = "";
@@ -35,6 +36,7 @@ function fizzBuzz(n) {
 
 module.exports = fizzBuzz;
 
+// O(n)
 // function fizzBuzz(n) {
 //     for (let i = 1; i <= n; i++) {
 //       if (i % 3 === 0) {
